@@ -7,24 +7,7 @@ state = {
     weathercards: []
 }
 
-// findWeather = () => {
-//     return this.props.filters.map(card => {  
-//       console.log(card , "card is right here")
-//       console.log(this.state)
-// if (card.main.temp_max > this.state.high){
-//       this.setState({
-//           high: card.main.temp_max
-//         })
-//     console.log(this.state.high)
-//     }else{console.log("no max")}
-//           return<WeatherCard key={this.props.filters.id}></WeatherCard>
-//             this.setState({
-//                 high: card.[0].main.temp_max
-//             })
-            
-            
-//         });
-// }
+
 
 renderWeather = () => {
    
